@@ -27,47 +27,7 @@
   </li>
 </ul>
 
-<h2>Installation</h2>
-<ol>
-  <li><strong>Clone the repository</strong>
-    <pre><code>git clone https://github.com/yourusername/blood-bank-app.git
-cd blood-bank-app
-    </code></pre>
-  </li>
 
-  <li><strong>Install dependencies for the backend</strong>
-    <pre><code>
-npm install
-    </code></pre>
-  </li>
-
-  <li><strong>Install dependencies for the frontend</strong>
-    <pre><code>cd ../client
-npm install
-    </code></pre>
-  </li>
-
-  <li><strong>Set up environment variables</strong>
-
-    <p>Create a <code>.env</code> file in the <code>backend</code> directory with the following details:</p>
-    <pre><code>MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-    </code></pre>
-  </li>
-
-  <li><strong>Run the application</strong>
-
-    <p>In the backend folder, run:</p>
-    <pre><code>npm start
-    </code></pre>
-
-    <p>In the frontend folder, run:</p>
-    <pre><code>npm start
-    </code></pre>
-
-    <p>The application should be available at <code>http://localhost:3000</code>.</p>
-  </li>
-</ol>
 
 <h2>Usage</h2>
 <ol>
@@ -77,8 +37,6 @@ JWT_SECRET=your_jwt_secret
   <li><strong>Profile Management</strong>: Users can update their information and manage their donation history.</li>
 </ol>
 
-<h2>Screenshots</h2>
-<p>(Add screenshots here)</p>
 
 <h2>Contributing</h2>
 <p>Contributions are welcome! Please fork the repository, make your changes, and open a pull request.</p>
